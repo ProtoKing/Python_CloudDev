@@ -2,20 +2,9 @@
 > by Steve Nalos, February 2022
 
 ## Background 
-### <font color=DarkGreen> Problem Statement</font>
 
-Your company recently acquired another company (company B). 
-You are part of the DevOps team.
-
-Your task is to <b> integrate all the existing systems of company B to your company's systems. </b>
-One of the first things that your team needs to do is to understand the behavior of company B's systems and to do that, you need to collect data. Also, your data collection strategy needs to be generic enough so that it can accomodate different types of systems (web apps, mobile apps, etc.).
-
-
-## Proposed Solution
-Your team's proposed solution is a <b> logging and monitoring system </b> which will create a record of log events generated from applications from different systems that serves as a detailed record of occurrences within different systems. It will also send a real-time alert to the DevOps team for things that need immediate attention.
-
-Logging and monitoring will help improve observability and can reduce the time spent sifting through log files when determining the root cause of problems.
-
+This is a serverless logging and monitoring system developed using AWS SDK for Python or Boto3. The main purpose of this system is to collect log data, and notify our DevOps team about log events with varying levels. 
+It aims to help the team consolidate events in the deployment of various apps, and be informed about events that warrant immediate attention.  This system is applied to several python programs as listed on the succeeding sections. 
 
 ## Architecture
 ![Architecture.png](Images/Architecture.png)
