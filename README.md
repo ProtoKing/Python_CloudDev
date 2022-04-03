@@ -18,7 +18,7 @@ Logging and monitoring will help improve observability and can reduce the time s
 
 
 ## Architecture
-![image.png](attachment:image.png)
+![Architecture.png](Images/Architecture.png)
 
 ## AWS Resources and Services 
 ### <font color=DarkGreen>AWS Lambda Function </font>
